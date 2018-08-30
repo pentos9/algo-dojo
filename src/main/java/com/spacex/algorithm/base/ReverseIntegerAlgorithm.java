@@ -69,6 +69,8 @@ public class ReverseIntegerAlgorithm {
         while (x != 0) {
             int pop = x % 10;
             x /= 10;
+
+            // Integer.MAX=2147483647,Integer.MIN= -2147483648
             if (rev > (Integer.MAX_VALUE / 10) || (rev == Integer.MAX_VALUE / 10 && pop > 7)) {
                 System.out.println(ZERO);
                 return ZERO;
