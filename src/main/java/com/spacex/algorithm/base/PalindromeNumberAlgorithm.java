@@ -1,7 +1,5 @@
 package com.spacex.algorithm.base;
 
-import java.util.ArrayList;
-import java.util.Collection;
 
 public class PalindromeNumberAlgorithm {
 
