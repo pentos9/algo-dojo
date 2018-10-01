@@ -2,7 +2,7 @@ package com.spacex.utils;
 
 public class PrintUtils {
 
-    public static void println(String text) {
+    public static void println(Object text) {
         System.out.println(text);
     }
 
